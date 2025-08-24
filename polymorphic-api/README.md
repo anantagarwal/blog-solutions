@@ -45,3 +45,20 @@ curl -X POST http://localhost:8080/payments \
 ```bash
 curl http://localhost:8080/payments/{payment-id}
 ```
+
+## Tools for Client Generation
+The most popular tool for this purpose is the `OpenAPI Generator`, which supports multiple client languages and frameworks.
+
+## Github
+
+A sample implementation for the above can be found on my [Github Repo](https://github.com/anantagarwal/blog-solutions/tree/main/polymorphic-api)
+
+```bash
+docker pull openapitools/openapi-generator-cli
+
+```
+
+### Java Client
+
+- Run the script `generate-client.sh`
+
