@@ -51,10 +51,10 @@ generate_client "Java" "java" \
      --artifact-version 1.0.0"
 
 # Generate Kotlin Multiplatform client
-generate_client "Kotlin Multiplatform" "kotlin" \
-    "$OUTPUT_DIR/kotlin-multiplatform-client" \
-    "--package-name com.example.payments.client \
-     --library multiplatform"
+#generate_client "Kotlin Multiplatform" "kotlin" \
+#    "$OUTPUT_DIR/kotlin-multiplatform-client" \
+#    "--package-name com.example.payments.client \
+#     --library multiplatform"
 
 # Generate additional clients if needed
 # generate_client "Python" "python" \
